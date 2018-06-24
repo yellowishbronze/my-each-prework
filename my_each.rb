@@ -1,10 +1,8 @@
 def my_each(array)
   index =0
   while index < array.length
-    yield(array[index])
+    yield(array[index]){|x| puts x}
     index+=1
   end
 array
 end
-
-my_each([1,2,3])
