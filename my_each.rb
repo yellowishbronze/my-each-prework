@@ -4,7 +4,7 @@ def my_each(array)
     yield([array[index])
     index+=1
   end
-
+array
 end
 
 my_each([1,2,3])
